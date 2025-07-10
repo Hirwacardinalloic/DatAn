@@ -1,53 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
-
 :root {
-  --primary-color: #fff;
-  --secondary-color: #3e54ac;
-  --third-color: #f9f9f9;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-  /* --fourth-color: #BFACE2; */
-  --line-height: 1.5;
-  --line-height-3: 1.1;
-  --line-height2: 1.6;
-}
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--primary-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  text-decoration: none;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
-li {
-  list-style-type: none;
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-footer.socials {
-  margin: 1rem 0;
-  justify-content: center;
-  align-items: center;
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-footer .back {
-  color: var(--secondary-color);
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+  
+  :root {
+    --primary-color: #fff;
+    --secondary-color: #3e54ac;
+    --third-color: #f9f9f9;
+  
+    /* --fourth-color: #BFACE2; */
+    --line-height: 1.5;
+    --line-height-3: 1.1;
+    --line-height2: 1.6;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  footer.socials {
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .back {
+    color: var(--secondary-color);
+  }
+  
+  footer .back:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-footer .back:hover {
-  color: black;
-  cursor: pointer;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
