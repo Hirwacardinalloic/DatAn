@@ -16,10 +16,10 @@ const About = ()=>{
                   transition={{duration:1}}>
         <h2 className="about-text">About</h2>
         <div className="about-me">
-          <p style={{lineHeight:"1.8"}}>Hello! I&apos;m Munana, a passionate Full-stack Developer dedicated to creating exceptional digital experiences. With a strong foundation in technologies like JavaScript, React, Ruby on Rails, and more, I thrive on turning ideas into functional and user-friendly applications.</p>
-          <p style={{lineHeight:"1.8", paddingTop:"10px"}}> My journey in web development has equipped me with problem-solving skills, attention to detail, and a keen eye for design. I am constantly learning and adapting to stay at the forefront of technology, ensuring that my work is both innovative and impactful.</p>
-          <p style={{lineHeight:"1.8", paddingTop:"10px"}}>In my freetime i enjoy watching football games and hanging out with my friends aand family</p>
-          <p style={{lineHeight:"1.8", paddingTop:"10px"}}> If you like what you see, and you have a project that needs coding, don&apos;t hesitate to reach out! Let&apos;s create something remarkable together. Connect with me on through my socials or drop me an email at <span style={{color:"var(--secondary-color)", fontWeight:"700"}}>munanaclinton@gmail.com.</span></p>
+          <p style={{lineHeight:"1.8"}}>Hello! I&apos;m Hirwa , I am a dedicated Data Analyst specializing in turning raw data into meaningful insights that drive strategic decisions. With strong skills in Excel, SQL, Power BI, and Python, I excel at data extraction, analysis, visualization, and reporting. My expertise includes cleaning and organizing large datasets, creating interactive dashboards, and automating data processes to improve efficiency.</p>
+          <p style={{lineHeight:"1.8", paddingTop:"10px"}}> My journey as a data analyst has equipped me with strong problem-solving skills, attention to detail, and a passion for uncovering insights from complex datasets. I am constantly learning and adapting to new tools and techniques to stay at the forefront of data technology, ensuring that my analyses are both accurate and impactful.</p>
+          <p style={{lineHeight:"1.8", paddingTop:"10px"}}> In my free time, I enjoy following football and spending quality time with friends and family.
+If you like what you see and have a data project or analysis challenge, feel free to reach out! Let’s connect via my socials or email me at <span style={{color:"var(--secondary-color)", fontWeight:"700"}}>loichirwa36@gmail.com.</span></p>
         </div>
         <Button link="https://drive.google.com/file/d/1dhHfReb7SkNQ0d6ZGJVl79PTLaHIGBVV/view?usp=sharing"  classes="resume">
           <div className="resume-content">

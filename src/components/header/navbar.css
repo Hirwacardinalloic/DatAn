@@ -6,8 +6,8 @@ nav {
     padding: 0 5rem;
   }
   
-  nav h1 {
-    font-family: 'Whisper', cursive;
+  nav h3 {
+    font-family: 'Whisper';
   }
   
   header {
@@ -26,6 +26,9 @@ nav {
   
   nav ul {
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
   
   .nav-btn {
@@ -109,10 +112,11 @@ nav {
       overflow: auto;
     }
   
-    nav ul.responsive-menu {
+    nav ul.show-menu {
       right: 0;
       top: 0;
-    }
+  }
+  
   
     nav ul li a {
       color: var(--secondary-color);
@@ -133,5 +137,19 @@ nav {
     nav ul {
       gap: 4.5rem;
     }
+    .nav-links {
+      display: flex !important;
+      position: static;
+      width: auto;
+      height: auto;
+      background: transparent;
+      flex-direction: row;
+      box-shadow: none;
+  }
+
+  .hamburg-menu,
+  .close {
+      display: none !important;
+  }
   }
   
