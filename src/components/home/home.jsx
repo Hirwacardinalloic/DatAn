@@ -4,6 +4,7 @@ import { FaAngellist } from "react-icons/fa";
 import { motion } from 'framer-motion'
 import './home.css'
 import Myimage from "./landingImage";
+import { FaXTwitter } from "react-icons/fa6";
 const Home = ()=>{
     return(
         <section id="home">
@@ -11,13 +12,13 @@ const Home = ()=>{
                         initial={{opacity: 0, y:100}}
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}>
-                <h1 className='hero-text'>Hello, I&apos;m Munana 👋.</h1>
-                <p className="hero-text-me">I&apos;m a Full-Stack Developer</p>
-                <p className="hero-about">Crafting seamless user experiences. Passionate about open-source contributions and dedicated to the art of UI/UX. Let &apos;s build something amazing together!</p>
+                <h1 className='hero-text'>Hello, I&apos;m Hirwa 👋.</h1>
+                <p className="hero-text-me">I&apos;m a Data Analytics</p>
+                <p className="hero-about">Data enthusiast committed to analyzing and visualizing information to uncover trends and support strategic decisions.</p>
                 <div className="socials">
-                  <a href="https://github.com/clin2on3mun" target="_blank" className="social-icons github" rel="noreferrer"><FiGithub /></a>
-                  <a href="https://www.linkedin.com/in/munana-clinton/" target="_blank" className="social-icons linkedin" rel="noreferrer"><FaLinkedinIn/></a>
-                  <a href="https://wellfound.com/u/munana-clinton" target="_blank" className="social-icons angelist" rel="noreferrer"><FaAngellist /></a>
+                  <a href="https://github.com/Hirwacardinalloic" target="_blank" className="social-icons github" rel="noreferrer"><FiGithub /></a>
+                  <a href="https://www.linkedin.com/in/cardinal-loic-hirwa-48502b242/" target="_blank" className="social-icons linkedin" rel="noreferrer"><FaLinkedinIn/></a>
+                  <a href="https://x.com/loicard" target="_blank" className="social-icons twitter" rel="noreferrer"><FaXTwitter/></a>
                 </div>
             </motion.div>
             <motion.div className="image-home-page"
