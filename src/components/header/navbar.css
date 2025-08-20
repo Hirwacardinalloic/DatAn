@@ -14,14 +14,15 @@ nav {
     height: 4.5rem;
     display: flex;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: #2C3E50;
   }
   
   header.scroll {
     position: sticky;
-    box-shadow: 0 -1px 8px;
+    /* box-shadow: 0 -1px 8px; */
     top: 0;
     z-index: 10;
+   
   }
   
   nav ul {
@@ -80,6 +81,7 @@ nav {
   @media only screen and (max-width: 768px) {
     nav {
       padding: 0 3% 0 3%;
+
     }
   
     button.hamburg-menu {
@@ -100,7 +102,7 @@ nav {
       right: -100%;
       width: 50%;
       height: 100%;
-      background: var(--primary-color);
+      background:  #2C3E50;
       transition: all 700ms ease-in-out;
       border-left: 1px solid var(--primary-color);
       box-shadow: 2px 0 5px #000;
@@ -142,7 +144,7 @@ nav {
       position: static;
       width: auto;
       height: auto;
-      background: transparent;
+      background:  #2C3E50;
       flex-direction: row;
       box-shadow: none;
   }
