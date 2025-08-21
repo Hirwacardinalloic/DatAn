@@ -1,6 +1,6 @@
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaAngellist } from "react-icons/fa";
+import { FaXTwitter} from "react-icons/fa";
 import { motion } from 'framer-motion'
 import './home.css'
 import Myimage from "./landingImage";
