@@ -4,7 +4,7 @@ import { FaXTwitter} from "react-icons/fa";
 import { motion } from 'framer-motion'
 import './home.css'
 import Myimage from "./landingImage";
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa6";
 const Home = ()=>{
     return(
         <section id="home">
