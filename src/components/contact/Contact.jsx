@@ -20,7 +20,7 @@ const Contact = ()=>{
                         <h2 className='about-text'>Contact Me</h2>
                         <p>Let &apos;s get in touch</p>
                     </section>
-                    <form id ='form' onSubmit={handleSubmit} action="https://formspree.io/f/xvonwpvy" method="POST">
+                    <form id ='form' onSubmit={handleSubmit} action="https://formspree.io/f/xovnevpg" method="POST">
                         <input type='text' placeholder='Name' name="name" onChange={(e) => setName(e.target.value)}  className='form-control' required/>
                         <input type='email' placeholder='Email'name="email" onChange={(e) => setEmail(e.target.value)} className='form-control' required/>
                         <textarea placeholder='say something.........' name="message"  onChange={(e) => setMessage(e.target.value)} className='form-control text-area' required></textarea>
