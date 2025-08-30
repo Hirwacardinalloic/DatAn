@@ -46,8 +46,8 @@
   .btn-send {
     padding: 0.8rem;
     border-radius: 0.3rem;
-    border: 1px solid var(--secondary-color);
-    background: unset;
+    border: 1px solid #ad8b73;
+    background: rgb(59, 59, 59);
     color: var(--secondary-color);
     font-size: 1rem;
   }
@@ -57,9 +57,14 @@
       padding: 0 1rem;
     }
   
-    .form-control,
-    .btn-send {
+    .form-control{
       width: 95%;
+    }
+    .btn-send {
+      width: 45%;
+      color: white;
+      background: rgb(56, 54, 54);
+
     }
   }
   

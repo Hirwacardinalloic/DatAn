@@ -29,13 +29,17 @@ const About = ()=> {
             My journey as a data analyst has equipped me with strong problem-solving skills, attention to detail, and a passion for uncovering insights from complex datasets. I am constantly learning and adapting to new tools and techniques to stay at the forefront of data technology, ensuring that my analysis are both accurate and impactful.
           </p>
           <p style={{lineHeight:"1.8", paddingTop:"10px"}}>
-            If you like what you see and have a data project or analysis challenge, feel free to reach out! Let’s connect via my socials or email me at 
-            <span style={{color:"royalblue", fontWeight:"700"}}> loichirwa36@gmail.com</span>.
+            If you like what you see and have a data project or analysis challenge, feel free to reach out! Let’s connect via my socials or email me at "
+          <a href="mailto:loichirwa36@gmail.com" style={{ color: "royalblue", fontWeight: 700, cursor: "pointer" }}
+        >
+            loichirwa36@gmail.com"
+            </a>
+
           </p>
         </div>
 
         <Button 
-          link="https://drive.google.com/file/d/1dhHfReb7SkNQ0d6ZGJVl79PTLaHIGBVV/view?usp=sharing"  
+          link="https://drive.google.com/file/d/1uqVfdo4058vDV5ewyTawvNW_jXDeqRvO/view?usp=sharing"  
           classes="resume"
         >
           <div className="resume-content">
@@ -43,6 +47,15 @@ const About = ()=> {
             <span className="resume-button-name">Resume</span>
           </div>
         </Button>   
+         <Button 
+          link="https://drive.google.com/drive/folders/1NyCBxFF4PI-e9rDQ2IHGFAB5hSBqdwjp?usp=sharing"  
+          classes="resume"
+        >
+          <div className="resume-content">
+            <LiaCloudDownloadAltSolid className="icon-download"/>
+            <span className="resume-button-name">Certificates</span>
+          </div>
+        </Button> 
       </motion.div>
 
       {/* Skills Section */}
