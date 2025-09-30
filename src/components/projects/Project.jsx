@@ -31,10 +31,10 @@ const Project= ()=>{
                             <FaRegEye/>
                             <span>Live Demo</span>
                       </Button>
-                      <Button link={project.sourceCode}  classes="project-button">
+                      {/* <Button link={project.sourceCode}  classes="project-button">
                             <FaCode/>
                             <span>Source Code</span>
-                      </Button>
+                      </Button> */}
                       </div>
                      </div> 
                      </motion.div>

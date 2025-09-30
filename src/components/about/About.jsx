@@ -7,7 +7,8 @@ import {
   SiMysql, 
   SiPandas, 
   SiNumpy, 
-  SiPostgresql 
+  // SiMatplotlib,
+  // SiPostgresql 
 } from "react-icons/si";
 import { FaFileExcel, FaChartBar } from "react-icons/fa"; 
 import './about.css'
@@ -79,10 +80,6 @@ const About = ()=> {
               <span className="size"><SiMysql /></span>
               <p className="skill-name">MySQL</p>
             </List>
-            <List className="list-skill" style={{background:'#13005A', color:'#fff'}}>
-              <span className="size"><SiPostgresql /></span>
-              <p className="skill-name">SQL Server</p>
-            </List>
           </ul>
         </section>
         <section>
@@ -109,6 +106,10 @@ const About = ()=> {
             <List className="list-skill" style={{background:'#B31312', color:'#fff'}}>
               <span className="size"><SiNumpy /></span>
               <p className="skill-name">NumPy</p>
+            </List>
+             <List className="list-skill" style={{background:'#13005A', color:'#fff'}}>
+              <span className="size"><FaChartBar /></span>
+              <p className="skill-name">Matplotlib</p>
             </List>
           </ul>
         </section>
