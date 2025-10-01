@@ -12,7 +12,7 @@ const Home = ()=>{
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}>
                 <h1 className='hero-text'>Hello, I&apos;m Hirwa 👋.</h1>
-                <p className="hero-text-me">I&apos;m a Data Analytics</p>
+                <p className="hero-text-me">I&apos;m a Data Analyst</p>
                 <p className="hero-about">Data enthusiast committed to analyzing and visualizing information to uncover trends and support strategic decisions.</p>
                 <div className="socials">
                   <a href="https://github.com/Hirwacardinalloic" target="_blank" className="social-icons github" rel="noreferrer"><FiGithub /></a>
