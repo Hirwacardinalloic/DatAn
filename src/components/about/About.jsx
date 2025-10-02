@@ -30,17 +30,14 @@ const About = ()=> {
             My journey as a data analyst has equipped me with strong problem-solving skills, attention to detail, and a passion for uncovering insights from complex datasets. I am constantly learning and adapting to new tools and techniques to stay at the forefront of data technology, ensuring that my analysis are both accurate and impactful.
           </p>
           <p style={{lineHeight:"1.8", paddingTop:"10px"}}>
-            If you like what you see and have a data project or analysis challenge, feel free to reach out! Let’s connect via my socials or email me at "
-          <a href="mailto:loichirwa36@gmail.com" style={{ color: "royalblue", fontWeight: 700, cursor: "pointer" }}
-        >
-            loichirwa36@gmail.com"
-            </a>
+            If you like what you see and have a data project or analysis challenge, feel free to reach out! Let’s connect via my socials or email me at "cardinaloichirwa@gmail.com"
+            
 
           </p>
         </div>
 <div className="resume-buttons">
   <Button 
-    link="https://drive.google.com/file/d/1uqVfdo4058vDV5ewyTawvNW_jXDeqRvO/view?usp=sharing"  
+    link="https://drive.google.com/file/d/1IVhQcCaSiPs5OEAaFEeNdOzeVQQhGJtX/view?usp=sharing"  
     classes="resume"
   >
     <div className="resume-content">

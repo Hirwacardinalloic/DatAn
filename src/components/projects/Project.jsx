@@ -36,7 +36,7 @@ const Project = () => {
                   {project.liveDemo && (
                     <Button link={project.liveDemo} classes="project-button">
                       <FaRegEye />
-                      <span>Live Demo</span>
+                      <span>More Details</span>
                     </Button>
                   )}
                   {/* Uncomment if you want Source Code button
