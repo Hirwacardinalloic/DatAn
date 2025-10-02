@@ -8,13 +8,16 @@ nav {
   
   nav h3 {
     font-family: 'Whisper';
+    color: white;
+    font-size: 1.8em;
+    font-weight: 400;
   }
   
   header {
     height: 4.5rem;
     display: flex;
     align-items: center;
-    /* background-color: #2C3E50; */
+    background-color: #2C3E50;
   }
   
   header.scroll {

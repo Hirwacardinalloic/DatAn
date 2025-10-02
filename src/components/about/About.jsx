@@ -38,25 +38,28 @@ const About = ()=> {
 
           </p>
         </div>
+<div className="resume-buttons">
+  <Button 
+    link="https://drive.google.com/file/d/1uqVfdo4058vDV5ewyTawvNW_jXDeqRvO/view?usp=sharing"  
+    classes="resume"
+  >
+    <div className="resume-content">
+      <LiaCloudDownloadAltSolid className="icon-download"/>
+      <span className="resume-button-name">Resume</span>
+    </div>
+  </Button>   
 
-        <Button 
-          link="https://drive.google.com/file/d/1uqVfdo4058vDV5ewyTawvNW_jXDeqRvO/view?usp=sharing"  
-          classes="resume"
-        >
-          <div className="resume-content">
-            <LiaCloudDownloadAltSolid className="icon-download"/>
-            <span className="resume-button-name">Resume</span>
-          </div>
-        </Button>   
-         <Button 
-          link="https://drive.google.com/drive/folders/1NyCBxFF4PI-e9rDQ2IHGFAB5hSBqdwjp?usp=sharing"  
-          classes="resume"
-        >
-          <div className="resume-content">
-            <LiaCloudDownloadAltSolid className="icon-download"/>
-            <span className="resume-button-name">Certificates</span>
-          </div>
-        </Button> 
+  <Button 
+    link="https://drive.google.com/drive/folders/1NyCBxFF4PI-e9rDQ2IHGFAB5hSBqdwjp?usp=sharing"  
+    classes="resume"
+  >
+    <div className="resume-content">
+      <LiaCloudDownloadAltSolid className="icon-download"/>
+      <span className="resume-button-name">Certificates</span>
+    </div>
+  </Button> 
+</div>
+
       </motion.div>
 
       {/* Skills Section */}

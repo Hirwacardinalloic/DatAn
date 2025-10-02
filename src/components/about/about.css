@@ -46,17 +46,31 @@
     font-size: 1.2rem;
   }
   
-  .resume-button-name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem;
-  }
-  
-  .resume-content:hover   {
-    background-color: var(--secondary-color);
-    transition: background-color 400ms;
-    color: #fff;
-    cursor: pointer;
-  }
+ .resume-buttons {
+  display: flex;              /* place children side by side */
+  gap: 1rem;                  /* spacing between buttons */
+  justify-content: flex-start; /* align left (you can use center or space-between) */
+}
+
+.resume-content {
+  display: flex;              /* keeps icon + text inline */
+  align-items: center;        /* vertically center icon + text */
+  gap: 0.5rem;                /* space between icon and text */
+  padding: 0.75rem 1.5rem;    /* button padding */
+  border: 1px solid #ccc;     /* optional border */
+  border-radius: 6px;         /* rounded corners */
+  transition: background-color 0.3s;
+  background-color: #f0f0f0;   /* default */
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+
+.resume-content:hover {
+  background-color: #646cff;   /* when clicked */
+  color: #fff;                 /* text color */
+}
+
   
   .skills {
     display: flex;
