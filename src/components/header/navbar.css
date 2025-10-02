@@ -14,12 +14,12 @@ nav {
     height: 4.5rem;
     display: flex;
     align-items: center;
-    background-color: #2C3E50;
+    /* background-color: #2C3E50; */
   }
   
   header.scroll {
     position: sticky;
-    /* box-shadow: 0 -1px 8px; */
+    box-shadow: 0 -1px 8px;
     top: 0;
     z-index: 10;
    
@@ -93,7 +93,7 @@ nav {
       position: absolute;
       top: 3%;
       right: 8%;
-      color: var(--secondary-color);
+      color: whitesmoke;
     }
   
     .nav-links {
@@ -121,7 +121,7 @@ nav {
   
   
     nav ul li a {
-      color: var(--secondary-color);
+      color: whitesmoke;
       font-size: 1.25rem;
       text-align: left;
     }
@@ -144,7 +144,7 @@ nav {
       position: static;
       width: auto;
       height: auto;
-      background:  #2C3E50;
+      /* background:  #2C3E50; */
       flex-direction: row;
       box-shadow: none;
   }

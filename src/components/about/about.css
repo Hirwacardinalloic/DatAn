@@ -1,6 +1,6 @@
 #about {
     display: grid;
-    background-color: var(--third-color);
+    /* background-color: var(--third-color); */
     grid-auto-flow: column;
     justify-content: center;
     place-content: center;
